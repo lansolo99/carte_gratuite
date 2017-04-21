@@ -421,18 +421,23 @@ h3{
 }
 .n2g_dark-section p{
   font-size: 16px;
+  line-height: 24px;
 }
-
-.n2g_dark-section .n2g_col-2{
-  padding: 50px 0 30px;
+.n2g_dark-section .n2g_col{
+  padding: 180px 0 30px;
   position: relative;
+  width: 45%; 
+}
+.n2g_dark-section img{
+  position: absolute;
+    top: 50px;
+    left: 0;
+}
+.n2g_dark-section .n2g_col-2{
   float: left;
-  width: 45%;
 }
 .n2g_dark-section .n2g_col-2-last{
-  padding: 50px 0 30px;
   float: right;
-  width: 45%;
 }
 .n2g_dark-section .n2g_col-2:after{
   background: #fff;
@@ -483,13 +488,13 @@ h3{
 .n2g_top-cta-content h1{
   color: #e60028;
   font-size: 28px;
-  margin: 0 0 12px;
+  margin: 0 0 8px;
   text-transform: uppercase;
 }
 .n2g_top-cta-content p{
   color: #1c1c1a;
   font-size: 15px;
-  //font-weight: 600;
+  line-height: 22px;
   text-transform: uppercase;
 }
 .n2g_top-cta-content .macaron{
